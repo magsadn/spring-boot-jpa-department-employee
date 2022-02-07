@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/department-employee
+    username: postgres
+    password: mako91
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: true
+server:
+  port: 8088
+  servlet:
+    context-path:
